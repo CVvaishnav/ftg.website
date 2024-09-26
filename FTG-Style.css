@@ -1,0 +1,400 @@
+body{
+    background-image: url(https://www.ftgames.com/images/backgrounds/FTG_BG01.jpg);
+    background-size: cover;
+    background-position: -3px -115px;
+    margin: 0px;
+    font-size: 20px;
+    background-attachment: fixed;
+    font-family: "Open Sans", sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 200px;
+    display: block;
+    position: fixed;
+    z-index: 1;
+}
+.header-logo{
+    width: 1040px;
+    margin-top: 13px;
+    margin-left: 77px;
+    float: left;
+    height: 200px;
+}
+.img-logo{
+    width: 180px;
+    height: auto;
+    display: block;
+}
+.menu{
+    padding-left: 10px;
+    transform: scale(1, 1.5);
+    float: left;
+    width: 340px; 
+    
+}
+.menu button{
+    float: left;
+    font-size: 12px;
+    font-family: BebasNeue, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin: 0px 10px;
+    padding: 30px 0px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.line{
+    background-color: red; 
+    height: 2px;
+    border: none;
+    margin-top: 4px;
+}
+.hidden-line{
+    background-color: red; 
+    height: 2px;
+    border: none;  
+    margin-top: 4px;
+    width: 0%;
+    transition: width 0.20s ease;
+}
+button:hover .hidden-line{
+    display: block;
+    width: 100%;
+}
+
+.floating-content{
+    width: 100%;
+    float: left;
+}
+
+.content{
+    float: left;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+.name-box{
+    margin-top: 400px;
+    width: 100%;
+    float: left;
+}
+.name{
+    padding-left: 250px;
+    transform: scale(1, 1.9);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 100px;
+    margin: 0;
+    margin-top: 130px;
+    line-height: .95;
+
+}
+.we{
+    font-size: 35px;
+    display: block;
+}
+.btn-box{
+    float: left;
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 140px;
+    text-align: center;
+}
+.about-us{
+    background-color: #d41600;
+    border: none;
+    margin-top:4px;
+    margin-bottom: 4px;
+    color: rgb(255, 255, 255);
+    padding: 8px 8px;
+    font-size: 20px;
+    transition: padding 0.15,
+                margin-top 0.15,
+                font-size 0.15;
+}
+.about-us:hover{
+    cursor: pointer;
+    padding: 10px 10px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 22px;
+}
+.text-content{
+    margin-top: 0px;
+    float: left;
+    width: 100%;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.text{
+    text-align: center; 
+    color: red;
+}
+
+.game{
+    width: 100%;
+    float: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    float: left;
+}
+.image{
+    width: 100%;
+    margin-bottom: -5px;
+}
+.game-content{
+    background-color: #f0f0f0;
+    padding-left: 100px;
+    padding-top: 120px;
+    color: red;
+}
+.game-content h2{
+    transform: scale(1, 1.9);
+    font-weight: bold;
+    display: block;
+}
+.view-note{
+    text-align: center;
+    background-color: #d41600;
+    border: none;
+    margin-top:4px;
+    color: rgb(255, 255, 255);
+    padding: 8px 8px;
+    font-size: 20px;
+    transition: padding 0.15,
+                margin-top 0.15,
+                font-size 0.15;
+}
+.view-note:hover{
+    padding: 10px 10px;
+    margin-top: 2px;
+    font-size: 22px;
+}
+.game2{
+    width: 100%;
+    float: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.game-content2{
+    background-color: #d11200;
+    padding: 80px 80px;
+    color: #f0f0f0;
+}
+.game-content2 h2{
+    margin-bottom: 40px;
+    transform: scale(1, 1.9);
+    font-weight: bolder;
+    display: block;
+}
+.view-note2{
+    text-align: center;
+    background-color: #d11200;
+    border: 2px solid #ffffff;
+    margin-top:4px;
+    color: #ffffff;
+    padding: 8px 8px;
+    line-height: 1;
+    font-size: 20px;
+    transition: padding 0.15,
+                margin-top 0.15,
+                font-size 0.15,
+                border 0.15;
+}
+.view-note2:hover{
+    border: none;
+    padding: 10px 10px;
+    margin-top: 2px;
+    font-size: 22px;
+    background-color: #ffffff;
+    color: #d11200;
+}
+.game-img2{
+    text-align: center;
+}
+.bkg-img2{
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+.img2-logo{
+    right: 14%;
+    width: 32%;
+    height: auto;
+    vertical-align: middle;
+    position: absolute;
+    z-index: 2;
+    margin-top: 80px;
+}
+.img3-logo{
+    left: 28%;
+    width: 20%;
+    height: auto;
+    vertical-align: middle;
+    position: absolute;
+    z-index: 2;
+    margin-top: 22.5%;
+}
+.img4-logo{
+    right: 10%;
+    width: 30%;
+    height: auto;
+    vertical-align: middle;
+    position: absolute;
+    z-index: 2;
+    margin-top: 48px;
+}
+.twitter-bkg{
+    width: 100%;
+    float: left;
+    padding: 80px 0;
+    text-align: center;
+    background-image: url(https://www.ftgames.com/images/backgrounds/MainBG.jpg);
+    background-size: contain;
+    background-position: center bottom;
+
+}
+.twitter-bkg a{
+    text-decoration: none;
+}
+.twitter-bkg a img{
+    width: 58px;
+    display: inline-block;
+}
+
+.twitter-bkg a h3{
+    vertical-align: 20px;
+    display: inline-block;
+    transform: scale(1, 1.9);
+    font-weight: bold;
+    font-size: 30px;
+    color: #d11200;
+}
+.footer{
+    background-color: #d01100;
+    float: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    text-align: center;
+}
+.footer-left{
+    padding-left: 155px;
+}
+.logo1{
+    width: auto;
+    height: 25px;
+    margin-right: 20px;
+    margin-top: 65px;
+    margin-bottom: 68px;
+    transition: width .20s,
+    height .20s,
+    margin-top .20s,
+    margin-left .20s,
+    margin-right .20s;
+}
+.logo1:hover{
+    width: auto;
+    height: 26px;
+    margin-top: 64px;
+    margin-right: 17px;
+}
+.logo2{
+    width: auto;
+    height: 25px;
+    margin-right: 20px;
+    margin-top: 65px;
+    margin-bottom: 68px;
+    transition: width .20s,
+    height .20s,
+    margin-top .20s,
+    margin-left .20s,
+    margin-right .20s;
+}
+.logo2:hover{
+    width: auto;
+    height: 26px;
+    margin-top: 64px;
+    margin-right: 17px;
+}
+.logo3{
+    width: auto;
+    height: 25px;
+    margin-right: 20px;
+    margin-top: 65px;
+    margin-bottom: 68px;
+    transition: width .20s,
+    height .20s,
+    margin-top .20s,
+    margin-left .20s,
+    margin-right .20s;
+}
+.logo3:hover{
+    width: auto;
+    height: 26px;
+    margin-top: 64px;
+    margin-right: 17px;
+}
+.footer-middle{
+    padding-top: 30px;
+}
+.ftg-logo{
+    width: 135px;
+    height: 36.67px;
+}
+.footer-middle p, .footer-middle a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 65%;
+    margin-bottom: 0;
+    line-height: 20px;
+    letter-spacing: .2px;
+}
+.footer-right{
+    text-align: center;
+    display: flex;
+    padding-left: 130px;
+
+}
+.logo{
+    width: 43px;
+    height: 43px;
+    border: 4px solid white;
+    text-align: center;
+    margin: 50px 7px;
+    cursor: pointer;
+}
+.logo img{
+    margin-top: 7px;
+    width: 27px;
+}
+.logo-image1{
+    margin-top: 7px;
+    width: 27px;
+}
+.logo:hover .logo-image1{
+    width: 32px;
+    margin-top: 4px;
+}
+
+.logo-image2{
+    margin-top: 7px;
+    width: 27px;
+}
+.logo:hover .logo-image2{
+    width: 32px;
+    margin-top: 4px;
+}
+
+.logo-image3{
+    margin-top: 7px;
+    width: 27px;
+}
+.logo:hover .logo-image3{
+    width: 32px;
+    margin-top: 4px;
+}
